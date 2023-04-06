@@ -19,6 +19,7 @@ type State = {
     serverResponse: boolean
 
 }
+// eslint-disable-next-line no-unused-vars
 export default class ContactMe extends React.Component<Props, State> {
     style = {
         maxWidth: 800,

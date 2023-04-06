@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-import { text } from 'stream/consumers';
 
 interface LandingPage {
 
@@ -24,7 +23,7 @@ const Title: FC<LandingPage> = ({ children }) => {
             <div className="d-flex flex-row align-items-center justify-content-center flex-wrap" style={headStyle}>
                 <h1 className="p-5" style={{ fontSize: 200, color:"white" }}>Hello.</h1>
                 <div className="p-5" >
-                    <img src="../../images/workph.jpg" className='img-fluid' style={imgStyle}></img>
+                    <img src="../../images/workph.jpg" className='img-fluid' style={imgStyle} alt=""></img>
                 </div>
                 
             </div>

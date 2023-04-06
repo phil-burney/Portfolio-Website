@@ -1,17 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBar from "./Components/NavBar/NavBar"
 import NavButton from "./Components/NavBar/NavButton"
-import NavLogo from "./Components/NavBar/NavLogo"
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPage from "./Components/Pages/LandingPage"
 import AboutMe from "./Components/Pages/AboutMe"
 import AboutWebsite from "./Components/Pages/AboutWebsite"
 import Resume from "./Components/Pages/Resume"
 import Portfolio from "./Components/Pages/Portfolio"
-import ContactMe from "./Components/Pages/ContactMe"
-import ContactMeConfirmation from "./Components/Pages/ContactMeConfirmation"
 
 function App() {
   return (
