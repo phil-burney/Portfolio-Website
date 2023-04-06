@@ -26,7 +26,7 @@ const Title: FC<PortfolioHolder> = ({ title, imageSource, description, language,
     <div className="my-3 d-flex flex-column" style={style}>
       <h2 className="p-3">{title}</h2>
       <div className="m-3">
-        <img style={imgstyle} className="img-fluid" src={imageSource}></img>
+        <img style={imgstyle} className="img-fluid" src={imageSource} alt=""></img>
       </div>
       <div className='p-4 ps-5'>
         <table >

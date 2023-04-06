@@ -15,7 +15,7 @@ const Title: FC<ImageHolder> = ({ imageSource, caption, height }) => {
   return (
     <div className="" style={style}>
       <div className="d-flex flex-column">
-        <img style={{ height: height, display: "block", objectFit: "cover" }} className="img-fluid rounded " src={imageSource}></img>
+        <img style={{ height: height, display: "block", objectFit: "cover" }} className="img-fluid rounded " src={imageSource} alt=""></img>
       </div>
       <span style={{ display: "block" }}>{caption}</span>
     </div>

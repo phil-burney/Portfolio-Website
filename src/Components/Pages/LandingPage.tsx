@@ -4,10 +4,7 @@ import { text } from 'stream/consumers';
 interface LandingPage {
 
 }
-let style = {
-    
 
-}
 let headStyle = {
     background: "#FFCB46"
 }
@@ -23,7 +20,7 @@ let textStyle = {
 }
 const Title: FC<LandingPage> = ({ children }) => {
     return (
-        <div id="landingpage" style={style}>
+        <div id="landingpage">
             <div className="d-flex flex-row align-items-center justify-content-center flex-wrap" style={headStyle}>
                 <h1 className="p-5" style={{ fontSize: 200, color:"white" }}>Hello.</h1>
                 <div className="p-5" >

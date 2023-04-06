@@ -46,7 +46,7 @@ const Title: FC<DropdownProps> = ({image, children}) => {
   return (
     <div>
     <div className="d-flex p-2"  onMouseOver={mouseover} onMouseLeave={reset} style={style}>
-        <img src={image} className='img-fluid  rounded'></img>
+        <img src={image} className='img-fluid  rounded' alt=""></img>
         <div style={dropDownStyle} className='pt-2'>
           <div style={{height:10, backgroundColor:"rgba(10,10,10,0.0)" }}></div>
           {children}

@@ -7,6 +7,7 @@ let style = {
     fontFamily: 'Roboto, sans-serif',
 
 }
+// eslint-disable-next-line no-empty-pattern
 const Title: FC<Portfolio> = ({ }) => {
     return (
         <div style = {style} className="d-flex flex-column align-items-center p-2">

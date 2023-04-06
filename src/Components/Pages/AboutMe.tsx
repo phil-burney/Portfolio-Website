@@ -9,10 +9,6 @@ let style = {
     fontSize: 18,
     fontFamily: 'Roboto, sans-serif',
 }
-let imageStyle = {
-    maxWidth: 400
-    // 
-}
 
 const Title: FC<AboutMe> = ({ children }) => {
     return (
