@@ -25,7 +25,7 @@
       }
     },
     "globalHeaders": {
-      "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
+      "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'"
     },
     "mimeTypes": {
       ".json": "text/json"
