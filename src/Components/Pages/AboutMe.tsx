@@ -19,14 +19,13 @@ const Title: FC<AboutMe> = ({ children }) => {
                 <div className="d-flex justify-content-center flex-wrap flex-xl-nowrap">
                     
                     <div className='flex-grow-1 px-3'>
-                        Hello!  My name is Phil Burney and I am currently pursuing a Computer Science degree at North Carolina State University.
+                        Hello!  My name is Phil Burney and I am Software Engineer.
                         I started life in Polk County, North Carolina, a rural county in the foothills of the beautiful Blue Ridge mountains.
                         Here, I grew up, and eventually graduated from high school.  After I graduated, I was accepted to North Carolina State University.
                         After a year of exploring what NCSU’s engineering program had to offer in my freshman, I decided to pursue a degree in Computer Science.
                         At the time, coding seemed very interesting, and Computer Science allows for creativity and problem solving that most other
-                        engineering degrees cannot match.  I was very successful in pursuing this degree, and currently have the highest GPA out of the
-                        whole senior class.  I plan on graduating in May of 2022, and am currently looking for gainful employment that is either remote
-                        or located in Asheville, Spartanburg, Greenville, or Charlotte.
+                        engineering degrees cannot match.  I was very successful in pursuing this degree, and I graduated at the top of my class with a Computer Science degree in 2022.  
+                        I am currently looking for gainful remote employment.
                     </div>
                     <div className="flex-md-shrink-0 p-3">
                         <ImageHolder imageSource='../../images/home.jpg' caption="The Blue Ridge Mountains, the place I call home." />

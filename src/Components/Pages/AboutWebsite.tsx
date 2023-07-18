@@ -17,7 +17,7 @@ const Title: FC<AboutWebsite> = ({ }) => {
             <div style = {style} className="d-flex-inline flex-column justify-content-center align-items-center p-5">
                 This website was created over the course of three days using the React framework in 
                 conjunction with Bootstrap 5.0.  The coding language Typescript was used for the front end of the website.
-                The coding language Python and the framework Django was used for the API.  To view the source code, click <a href = "https://github.com/phil-burney/mywebsite2">here.</a>
+                 To view the source code, click <a href = "https://github.com/phil-burney/Portfolio-Website">here.</a>
             </div>
 
         </div>
