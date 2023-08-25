@@ -1,0 +1,58 @@
+
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+$baseColor: black
+$textColor: white
+
+
+body
+  background: $baseColor
+  color: $textColor
+
+.btn-container
+  display: inline-block
+  
+  overflow: hidden
+  position: relative
+  -webkit-mask-image: -webkit-radial-gradient(circle, white, black)
+  mask-image: radial-gradient(circle, white, black)
+
+  &::before
+    content: ""
+    position: absolute
+    top: -50%
+    left: -50%
+    right: -50%
+    bottom: -50%
+    background: $baseColor
+    transform: skewX(45deg) 
+    transition: all 0.5s cubic-bezier(0.19, 0.5, 0.22, 0.5)
+    overflow: hidden
+
+  &:hover::before
+    left: 150%
+
+
+  
+
+.gradient-btn
+  display: inline-block
+  border-radius: 15px
+  padding: 10px 20px
+  background: linear-gradient(45deg, #FF5733, #FFC300)
+  color: white
+  
+  text-decoration: none
+  transition: all 0.5s cubic-bezier(0.19, 0.5, 0.22, 0.5)
+  opacity: 1
+
+.gradient-btn-txt 
+  position: relative
+  z-index: 2 // Making sure the text is always on top
+
+
+
+
+

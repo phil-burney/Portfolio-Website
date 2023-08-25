@@ -1,0 +1,60 @@
+.border-gradient 
+  position: relative
+  border: double 6px transparent
+  border-radius: 20px
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, green, blue)
+  background-origin: border-box
+  background-clip: content-box, border-box
+  transition: color 0.3s ease
+
+
+/* Create a pseudo-element for the hover state */
+.border-gradient::before 
+  position: absolute
+  content: ""
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  border-radius: 13px
+  background-image: linear-gradient(white, white), radial-gradient(circle at top right, gold, blue)
+  background-origin: border-box
+  background-clip: content-box, border-box
+  opacity: 0
+  transition: opacity 0.3s ease
+
+.main-text 
+  font-size: 175px
+  font-weight: bold
+  background: -webkit-linear-gradient(#d9ff00, #ff0000)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  transition: transform 0.3s ease, background 0.3s ease  
+  line-height: 0.9
+
+.text 
+  background: -webkit-linear-gradient(#0011ff, #00b800)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  transition: transform 0.3s ease, background 0.3s ease
+  &:hover
+    transform: scale(1.2)
+  &:active
+    background: -webkit-linear-gradient(#0011ff, #b00b5b)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+.border-gradient:hover 
+  color: black
+
+
+.border-gradient:hover::before 
+  opacity: 1
+
+
+.mask-svg img 
+    /* Reset to grayscale then turn to blue */
+    filter: brightness(0) saturate(100%) contrast(9) hue-rotate(200deg)
+
+
+ 
